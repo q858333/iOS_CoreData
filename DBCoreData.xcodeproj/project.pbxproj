@@ -15,6 +15,7 @@
 		F7B67F0619CC035300AE1ED5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B67F0519CC035300AE1ED5 /* Images.xcassets */; };
 		F7B67F0919CC035300AE1ED5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B67F0719CC035300AE1ED5 /* LaunchScreen.xib */; };
 		F7B67F1519CC035300AE1ED5 /* DBCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B67F1419CC035300AE1ED5 /* DBCoreDataTests.m */; };
+		F7B67F2119CC055500AE1ED5 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B67F2019CC055500AE1ED5 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,9 @@
 		F7B67F0E19CC035300AE1ED5 /* DBCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B67F1319CC035300AE1ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B67F1419CC035300AE1ED5 /* DBCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBCoreDataTests.m; sourceTree = "<group>"; };
+		F7B67F1E19CC051A00AE1ED5 /* DBCoreData 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DBCoreData 2.xcdatamodel"; sourceTree = "<group>"; };
+		F7B67F1F19CC055500AE1ED5 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F7B67F2019CC055500AE1ED5 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				F7B67F0519CC035300AE1ED5 /* Images.xcassets */,
 				F7B67F0719CC035300AE1ED5 /* LaunchScreen.xib */,
 				F7B67EFC19CC035300AE1ED5 /* DBCoreData.xcdatamodeld */,
+				F7B67F1F19CC055500AE1ED5 /* User.h */,
+				F7B67F2019CC055500AE1ED5 /* User.m */,
 				F7B67EF519CC035300AE1ED5 /* Supporting Files */,
 			);
 			path = DBCoreData;
@@ -222,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B67F2119CC055500AE1ED5 /* User.m in Sources */,
 				F7B67EFB19CC035300AE1ED5 /* AppDelegate.m in Sources */,
 				F7B67EF819CC035300AE1ED5 /* main.m in Sources */,
 				F7B67F0119CC035300AE1ED5 /* ViewController.m in Sources */,
@@ -431,6 +438,7 @@
 		F7B67EFC19CC035300AE1ED5 /* DBCoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				F7B67F1E19CC051A00AE1ED5 /* DBCoreData 2.xcdatamodel */,
 				F7B67EFD19CC035300AE1ED5 /* DBCoreData.xcdatamodel */,
 			);
 			currentVersion = F7B67EFD19CC035300AE1ED5 /* DBCoreData.xcdatamodel */;

@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,retain)AppDelegate* myAppDelegate;
+-(IBAction)insertBtnClick;
+-(IBAction)findBtnClick;
+-(IBAction)deleteBtnClick;
+-(IBAction)updateBtnClick;
 
 @end
 
